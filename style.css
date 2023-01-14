@@ -1,0 +1,140 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.top-container {
+    background-image: url('Assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 10% 0;
+}
+
+/* nav bar */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+button#sign-in {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+button#sign-up1 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+
+/* top */
+
+.title-block {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.title-block h1 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.title-block p {
+    font-weight: 300;
+    padding: 20px 50px;
+}
+
+.title-block img {
+    width: 1000px;
+    position: relative;
+    right: 30%;
+    vertical-align: bottom;
+}
+
+.title-block button#sign-up2 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+
+/* bottom */
+
+.bottom-container {
+    padding: 60px 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-container .left {
+    grid-column: 1 / span 1;
+    align-self: center;
+}
+
+.bottom-container .left h2 {
+    font-size: 1.75rem;
+    padding-bottom: 10px;
+}
+
+.bottom-container .left p {
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+}
+
+.bottom-container .left button#sign-up3 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.bottom-container .right {
+    justify-self: end;
+}
+
+.bottom-container .right img {
+    width: 360px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 15%;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
